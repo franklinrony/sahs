@@ -6,28 +6,31 @@ class  Persona {
      *Monitor
      *Administrativo
      */
-    public $nombres;
-    private $apellidos;
-    private $edad;
-    private $direccion;
-    private $fechaNacimiento;
-    private $telefono;
-    private $correo;
+    private $_nombres;
+    private $_apellidos;
+    private $_edad;
+    private $_direccion;
+    private $_fechaNacimiento;
+    private $_telefono;
+    private $_correo;
     
     //constructor
-    public function __contruct($nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo){
-      $this->nombres=$nombres;
-      $this->apellidos=$apellidos;
-      $this->edad=$edad;
-      $this->direccion=$direccion;
-      $this->fechaNacimiento=$fechaNacimiento;
-      $this->telefono=$telefono;
-      $this->correo=$correo;
+  	public function __construct($nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo){
+      $this->_nombres=$nombres;
+      $this->_apellidos=$apellidos;
+      $this->_edad=$edad;
+      $this->_direccion=$direccion;
+      $this->_fechaNacimiento=$fechaNacimiento;
+      $this->_telefono=$telefono;
+      $this->_correo=$correo;
     }
     //definicion de getter y setter
     public function getNombres(){
-        return $this->nombres;
+        return $this->_nombres;
     }
+	public function getApellidos(){
+		return $this->_apellidos;
+		}
     
 }
 

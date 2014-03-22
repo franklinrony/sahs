@@ -5,11 +5,13 @@
 	<title>Document</title>
 </head>
 <body>
-<p >
+
 <?php
-include('clases/Persona.php');
-$persona=new Persona("Franklin ROny","Cortez",27,"6 avenida norte","07/03/86","23340003","franklinrony2@gmail.com");
-echo "Hola".$persona->nombres;
-?></p>	
+include 'clases/Persona.php';
+
+$persona=new Persona("Franklin","Cortez",28," 6 avenida norte","abril","23340003","franklinronygmail.com");
+echo $persona->getNombres();
+echo $persona->getApellidos();
+?>
 </body>
 </html>
