@@ -7,13 +7,13 @@
 */
 abstract class  Persona {
 
-    private $_nombres;
-    private $_apellidos;
-    private $_edad;
-    private $_direccion;
-    private $_fechaNacimiento;
-    private $_telefono;
-    private $_correo;
+    private $nombres;
+    private $apellidos;
+    private $edad;
+    private $direccion;
+    private $fechaNacimiento;
+    private $telefono;
+    private $correo;
   
     //constructor
   	public function __construct($nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo){
@@ -33,7 +33,8 @@ abstract class  Persona {
 		} else {
 			return $propertyName.' no existe';
 		}
-	}	
+	}
+	//tostring
 	public function __toString(){
 		$cadena="";
 		$cadena.="Nombres: ".$this->nombres."<br />";

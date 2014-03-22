@@ -3,7 +3,7 @@
 * Agrega atributos y metodos propios
 */
 //inclusion del archivo que contiene la clase Persona
-include 'clases/Persona.php';
+include_once 'clases/Persona.php';
 class Estudiante extends Persona{
 	private $carnet;
 	private $carrera;

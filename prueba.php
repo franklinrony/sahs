@@ -7,11 +7,14 @@
 <body>
 
 <?php
-include 'clases/Estudiante.php';
+include_once 'clases/Estudiante.php';
+include_once 'clases/Admin.php';
 
 $persona=new Estudiante("Franklin","Cortez",28," 6 avenida norte","abril","23340003","franklinronygmail.com","cb201101","ing sistemas",36,147,8.2);
 
 echo $persona;
+$admin=new Admin("Rony","Cortez",28,"7 av te","02/02/45","2333","dsdsd","8/25/12");
+echo $admin;
 ?>
 </body>
 </html>
