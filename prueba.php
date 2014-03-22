@@ -7,11 +7,11 @@
 <body>
 
 <?php
-include 'clases/Persona.php';
+include 'clases/Estudiante.php';
 
-$persona=new Persona("Franklin","Cortez",28," 6 avenida norte","abril","23340003","franklinronygmail.com");
-echo $persona->getNombres();
-echo $persona->getApellidos();
+$persona=new Estudiante("Franklin","Cortez",28," 6 avenida norte","abril","23340003","franklinronygmail.com","cb201101","ing sistemas",36,147,8.2);
+
+echo $persona;
 ?>
 </body>
 </html>
