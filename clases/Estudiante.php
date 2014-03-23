@@ -1,9 +1,10 @@
 <?php
 /* Especializacion de la clase Persona.
+*reescribe el metodo toString de la clase Persona
 * Agrega atributos y metodos propios
 */
 //inclusion del archivo que contiene la clase Persona
-include_once 'clases/Persona.php';
+include_once 'Persona.php';
 class Estudiante extends Persona{
 	private $carnet;
 	private $carrera;
