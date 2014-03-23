@@ -1,6 +1,9 @@
 <?php 
+/*Clase Administrador que define los atributos de cada administador
+*reescribe el metodo toString de la clase Persona
+*/
 //inclusion del archivo que contiene la clase Persona
-include_once 'clases/Persona.php';
+include_once 'Persona.php';
 class Admin extends Persona{
 	private $fechaIngreso;
 	//constructor
@@ -20,7 +23,6 @@ class Admin extends Persona{
 	public function __toString(){
 		$cadena=parent::__toString();	
 		$cadena.= "Fecha de Ingreso: ".(string)$this->fechaIngreso."<br />";
-			$cadena.= "Fecha de Ingreso: ".(string)$this->fecaIngreso."<br />";
 		return $cadena;
 		}
 		
