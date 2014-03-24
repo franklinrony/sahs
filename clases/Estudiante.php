@@ -13,9 +13,10 @@ class Estudiante extends Persona{
 	private $cum;
 	private $competencias=array();
 	
-	public function __construct($nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo,$carnet,$carrera,$materiasAprobadas,$uvs,$cum){
+	
+	public function __construct($usuario,$password,$activo,$grupo,$nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo,$carnet,$carrera,$materiasAprobadas,$uvs,$cum){
 		//uso de constructor de la clase persona
-		parent::__construct($nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo);
+		parent::__construct($usuario,$password,$activo,$grupo,$nombres,$apellidos,$edad,$direccion,$fechaNacimiento,$telefono,$correo);
 		//atributos de la clase Estudiante
 		$this->carnet=$carnet;
 		$this->carrera=$carrera;
@@ -24,12 +25,13 @@ class Estudiante extends Persona{
 		$this->cum=$cum;
 		
 		}
+
 	//getter de Estudiante
 	 	public function __get($propertyName) {
-		if (property_exists('Estudiante',$propertyName ) ) {
+		if (property_exists('Estudiante',$propertyName )) {
 			return $this->$propertyName ;
 		} else {
-			return $propertyName.' no existe';
+			return $propertyName.' no existe en esta clase';
 		}
 	}
 	//informacion del objeto Estudiante
