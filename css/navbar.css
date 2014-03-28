@@ -1,0 +1,5 @@
+* { margin: 0; padding: 0; }
+ul { margin: 20px 10px; }
+ul li { float: left; list-style-type: none; }
+ul li a { background: #004b98; color: #FFF800; display: block; font-family: Arial, Helvetica, sans-serif; padding: 10px 20px; text-decoration: none; }
+ul li a:hover { background: #0069d4; }
