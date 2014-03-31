@@ -11,7 +11,7 @@ margin: 0;
 }
 
 #header {
-  background: #203F80;
+  background-color: #203F80;
   font-family: Arial, Helvetica, sans-serif;
   color: #FFFFFF;
   height: 150px;
@@ -29,7 +29,7 @@ margin: 0;
 }
 
 #navbar {
-  background: #0069d4;
+  background-color: #0069d4;
   background-image: url(../imgs/line.jpg);
   height: 40px;
   border-top: 1px solid #FFFFFF;
@@ -38,6 +38,7 @@ margin: 0;
 
 #content
  {
+   background: #FFFFFF;
    height: 100%;
 }
 
@@ -46,7 +47,7 @@ margin: 0;
      border-top: 2px solid #CCCCCC;
      font-family: Arial, Helvetica, sans-serif;
      text-align: center;
-     color: #FFFFFF;  
+     color: #FFFFFF;
 }
 body {
   background-color:#9DBDC9;
