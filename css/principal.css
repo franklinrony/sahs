@@ -1,4 +1,9 @@
 /* css de todo el sitio */
+*{
+padding: 0;
+margin: 0;
+}
+
 #main{
   width: 96%;
   margin: 10px auto;   /* centrar contenido */
@@ -12,7 +17,7 @@
   height: 150px;
   text-align: center;
   padding-left: 100px;
-  box-shadow: #808080;
+
 }
 
 #header img {
@@ -27,8 +32,22 @@
   background: #0069d4;
   background-image: url(../imgs/line.jpg);
   height: 40px;
+  border-top: 1px solid #FFFFFF;
+
 }
 
+#content
+ {
+   height: 100%;
+}
+
+#footer{
+     background: #203F80;
+     border-top: 2px solid #CCCCCC;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color: #FFFFFF;  
+}
 body {
   background-color:#9DBDC9;
 }
