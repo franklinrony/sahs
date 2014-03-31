@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="css/navbar.css" media="all">
+    <title>Ingreso Usuario</title>
+    <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
+    <link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
 </head>
 <body>
     <div id="main">

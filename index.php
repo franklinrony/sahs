@@ -3,14 +3,16 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Inicio</title>
-    <link rel="stylesheet" href="css/navbar.css" media="all">
+    <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
+	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
 </head>
 <body>
-    <div id="main">
+    
+<div id="main">
         <div id="header">
             <?php  include 'inc/header.php';?>
         </div>
-        <div id="navbar">
+        <div id="navbar" >
             <?php include 'inc/nav.php';?>
         </div>
         <div id="content">
