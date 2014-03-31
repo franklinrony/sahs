@@ -15,8 +15,8 @@
             <?php include 'inc/nav.php';?>
         </div>
         <div id="content">
-		<form action="" method="post">
-			<table>
+		<form action="" method="post" >
+			<table class="centrarform">
 			    <tr>
 				<td><label for="usuario">Usuario:</label></td>
 				<td><input type="text" name="usuario" id="usuario"></td>

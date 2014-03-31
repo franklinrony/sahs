@@ -4,6 +4,13 @@ padding: 0;
 margin: 0;
 }
 
+body {
+  background-color:#9DBDC9;
+}
+
+table {
+  border-spacing: 15px;
+}
 #main{
   width: 96%;
   margin: 10px auto;   /* centrar contenido */
@@ -40,6 +47,7 @@ margin: 0;
  {
    background: #FFFFFF;
    height: 100%;
+
 }
 
 #footer{
@@ -49,6 +57,11 @@ margin: 0;
      text-align: center;
      color: #FFFFFF;
 }
-body {
-  background-color:#9DBDC9;
+
+
+.centrarform {
+  padding: 10%;
+  margin: 0 auto;
+  box-shadow: #808080
+
 }
