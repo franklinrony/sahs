@@ -6,10 +6,13 @@ margin: 0;
 
 body {
   background-color:#9DBDC9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-  border-spacing: 15px;
+  border-collapse: separate;
+  border-spacing:  15px;
+
 }
 #main{
   width: 96%;
@@ -47,6 +50,7 @@ table {
  {
    background: #FFFFFF;
    height: 100%;
+   padding: 2% 1% 5% 1%
 
 }
 
@@ -58,9 +62,8 @@ table {
      color: #FFFFFF;
 }
 
-
 .centrarform {
-  padding: 10%;
+  padding: 3%;
   margin: 0 auto;
   box-shadow: #808080
 
