@@ -3,6 +3,6 @@ sahs
 
 proyecto materia innovacion tecnologica UPES
 
--Instalacion
+Instalacion
 -copiar archivos en la carpeta htdocs o wwww
 -
