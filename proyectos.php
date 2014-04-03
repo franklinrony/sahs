@@ -1,4 +1,4 @@
-<?php include_once 'boton_cerrarsesion.php'; ?>
+<?php /*comprobamos si el usuario ha iniciado sesión...*/  include_once 'comprobar_usuario.php'; ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es">
@@ -15,15 +15,13 @@
     
 <div id="main">
         <div id="header">
-            <?php  
-			//include 'salir.php';
-			include 'inc/header.php';?>
+            <?php  include 'inc/header.php';?>
         </div>
         <div id="navbar" >
             <?php include 'inc/nav.php';?>
         </div>
         <div id="content">
-            <p>Esta es la página de inicio.</p>
+            <p>Esta es la página de proyectos</p>
         </div>
         <div id="footer">
             <?php include 'inc/footer.php'; ?>

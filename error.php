@@ -1,5 +1,3 @@
-<?php include_once 'boton_cerrarsesion.php'; ?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es">
 <head>
@@ -15,15 +13,15 @@
     
 <div id="main">
         <div id="header">
-            <?php  
-			//include 'salir.php';
-			include 'inc/header.php';?>
+            <?php  include 'inc/header.php';?>
         </div>
         <div id="navbar" >
             <?php include 'inc/nav.php';?>
         </div>
         <div id="content">
-            <p>Esta es la página de inicio.</p>
+            
+            <h1>USTED NO ESTA AUTORIZADO PARA VER ESTA PÁGINA. HAGA CLIC EN INGRESAR E INTRODUZCA USUARIO Y PASSWORD VÁLIDOS E INTÉNTELO DE NUEVO				 	 		</h1>
+            
         </div>
         <div id="footer">
             <?php include 'inc/footer.php'; ?>
