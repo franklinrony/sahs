@@ -1,6 +1,6 @@
 <!--Esta página sólo podrá ser vista por el administrador...-->
 <?php /*evaluamos a través del archivo validar_administrador.php si el usuario que ha iniciado sesión es en efecto administrador*/  
-include_once'validar_administrador.php';
+include_once'inc/validar_administrador.php';
 
 ?>
 

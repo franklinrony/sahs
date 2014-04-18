@@ -1,4 +1,4 @@
-<?php include_once'boton_cerrarsesion.php'; ?>
+<?php include_once'inc/boton_cerrarsesion.php'; ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es">
@@ -40,7 +40,7 @@
             
             
       <h1>Ingresar al sistema</h1>
-      <form method="post" action="control_login.php">
+      <form method="post" action="inc/control_login.php">
         <p><input type="text" name="usuario" value="Usuario"></p>
         <p><input type="password" name="password" value="Password"></p>
         <p class="remember_me">
