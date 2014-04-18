@@ -1,5 +1,5 @@
 <?php
-	//Directorio base del sitio si es el root cambiar a /
+	//Directorio base del sitio si es el root dejar en blanco
 	$base="/sahs";
 
 ?>
