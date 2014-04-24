@@ -10,14 +10,14 @@ include_once'inc/validar_administrador.php';
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description" content="Sistema automatizado de Horas sociales-Universidad Politecnica de El Salvador">
 	<meta name="keywords" content="sahs, principal, horas sociales,servicio social">
-    <title>Inicio</title>
+    <title>Panel Administrador</title>
     <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
 	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
 
 </head>
 <body>
-    
+<?php define('_SAHS_',true);  ?>      
 <div id="main">
         <div id="header">
             <?php  include 'inc/header.php';?>

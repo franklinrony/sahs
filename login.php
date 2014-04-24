@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
 </head>
 <body>
+<?php define('_SAHS_',true);  ?>  
     <div id="main">
         <div id="header">
             <?php  include 'inc/header.php';?>

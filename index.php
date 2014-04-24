@@ -7,12 +7,12 @@
     <meta name="description" content="Sistema automatizado de Horas sociales-Universidad Politecnica de El Salvador">
 	<meta name="keywords" content="sahs, principal, horas sociales,servicio social">
     <title>Inicio</title>
+   	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
     <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
-	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
 </head>
 <body>
-    
+<?php define('_SAHS_',true);  ?>    
 <div id="main">
         <div id="header">
             <?php  
