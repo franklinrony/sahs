@@ -1,0 +1,5 @@
+todo
+
+-corregir espacio generado por el archivovalidar administrador
+-agregar bootstrap estructura sitio
+-borrar boton cerrar sesion

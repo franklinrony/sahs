@@ -21,7 +21,7 @@ body {
   color: #FFFFFF;
   height: 150px;
   text-align: center;
-  padding-left: 100px;
+  padding-left: 80px;
     white-space:nowrap;
 
 
@@ -29,19 +29,12 @@ body {
 
 #header img {
   float: left;
-  padding-left: 60px;
+  padding-left: 10px;
   margin-top: 10px;
   padding-bottom: 5px;
   box-shadow: #808080;
 }
 
-#navbar {
-  background-color: #0069d4;
-  background-image: url(../imgs/line.jpg);
-  height: 40px;
-  border-top: 1px solid #FFFFFF;
-
-}
 
 #content
  {

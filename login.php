@@ -1,5 +1,3 @@
-<?php include_once'inc/boton_cerrarsesion.php'; ?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es">
 <head>
@@ -7,10 +5,10 @@
     <meta name="description" content="Ingreso de usuarios al sistema">
 	<meta name="keywords" content="login,upes,sahs,universidad politecnica">
     <title>Ingreso Usuario</title>
-    <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+
 </head>
 <body>
 <?php define('_SAHS_',true);  ?>  
@@ -24,7 +22,7 @@
         <!--formulario de login -->
         <div id="content">
 		    <div class="login">
-            
+    
             
             
            <?php 
@@ -37,7 +35,7 @@
 				}
 			?>
             
-            
+           
             
             
       <h1>Ingresar al sistema</h1>

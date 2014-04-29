@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="es">
 <head>
@@ -6,13 +5,13 @@
     <meta name="description" content="Sistema automatizado de Horas sociales-Universidad Politecnica de El Salvador">
 	<meta name="keywords" content="sahs, principal, horas sociales,servicio social">
     <title>Registro de empresa</title>
-    <link rel="stylesheet" href="css/navbar.css" type="text/css"  media="all">
-	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/principal.css" type="text/css"  media="all">
  
 </head>
 <body>
-<?php define('_SAHS_',true);  ?>  
+<?php define('_SAHS_',true);  ?>
+  
 <div id="main">
         <div id="header">
             <?php  include 'inc/header.php';?>
@@ -20,7 +19,7 @@
         <div id="navbar" >
             <?php include 'inc/nav.php';?>
         </div>
-        <div id="content">
+        <div id="content" >
         <div><p class="alert alert-info" >Para registrar una cuenta Rellene el siguiente formulario.<br />Pronto nos comunicaremos con ud.</p></div>
 
           <form name="form1" method="post" action="" >
