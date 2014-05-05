@@ -1,5 +1,2 @@
-usuario: otto
-password: upes123
-
-usuario: Raquel
-password: itca123
+usuario: CB201101
+password: 123456
