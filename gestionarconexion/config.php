@@ -4,6 +4,6 @@
 define('BD_HOST','localhost');
 define('BD_USER','root');
 define('BD_NOMBRE','bd_hs1');
-define('BD_PASSWORD','upes123');
+define('BD_PASSWORD','root');
 
 ?>
