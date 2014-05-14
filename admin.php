@@ -28,10 +28,31 @@ include_once 'inc/validar_administrador.php';
             <div class="container">
             	<div class="row">
             		<div class="span2">
-						<ul class="nav nav-pills nav-stacked">
-							<li class="active">item1</li>
-							<li> <a href="admin/agregar_usuario.php">item2</a> </li>
-						</ul>
+					<ul class="nav nav-list">
+						<li class="nav-header">Mantenimiento de Usuarios</li>
+						<li> <a href="#">Estudiantes</a> </li>
+						<li> <a href="#">Empresas</a> </li>
+						<li> <a href="#">Administrativos</a> </li>
+						<li> <a href="#">Monitor</a> </li>
+					</ul>
+					<ul class="nav nav-list">
+						<li class="nav-header">Proyectos</li>
+						<li> <a href="#">Propuestos</a> </li>
+						<li> <a href="#">Aprobados</a> </li>
+						<li> <a href="#">Aceptados</a> </li>
+						<li> <a href="#">Devueltos</a> </li>
+						<li> <a href="#">Operativos</a> </li>
+					</ul>
+					<ul class="nav nav-list">
+						<li class="nav-header">Reportes</li>
+						<li> <a href="#">Proyectos</a> </li>
+						<li><a href=""></a></li>
+
+					</ul>
+					<ul class="nav nav-list">
+						<li class="nav-header">Sistema</li>
+						<li><a href="#">Configuraciones</a> </li>
+					</ul>
 					</div>
             		<div  class="span10">
 						<h2>Bienvenido al Panel de Administrador</h2>

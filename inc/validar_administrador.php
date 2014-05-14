@@ -11,11 +11,5 @@ if (!$_SESSION["activo"] or $_SESSION["tipo_usuario"] != 1 ){
 	
 	header("Location:"."http://".$_SERVER['HTTP_HOST'].$base."/error.php");
 	}
-	else{
-		
-		//si el usuario cumple las condiciones que muestre el botón de cerrar sesión...
-		echo "Bienvenido: "."<font color='#FF0000'>" . $_SESSION['nombre_usuario']."</font>";
-		echo "<form action='salir.php'><input type='submit' value='Cerrar sesión de usuario'></form>";
-		}
-		
-		?>
+	
+?>
